@@ -1,53 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Criando formulario de Cadastro </title>
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Teste</h1>
-    <form>
-        <label for="nome">Nome</label><br>
-        <input id="nome" type="text" placeholder="Digite seu nome aqui..." name="nome" required maxlength="60" /><br><br>
-        <label for="email">E-mail</label><br>
-        <input id="email" type="text" placeholder="Digite seu e-mail aqui..." name="email" required maxlength="60" /><br><br>
-
-
-        <label for="descricao">Descrição</label><br>
-        <textarea id="descricao" placeholder="Fale mais sobre você aqui..." name="descricão" rows="5" cols="20" r></textarea><br><br>
-
-        <label for="moduloSelecionado">Módulo</label><br>
-        <select id="moduloSelecionado" name="moduloSelecionado" required>
-            <option value="">Selecione o seu Módulo</option>
-            <option value="modulo1">Módulo 1</option>
-            <option value="modulo2">Módulo 2</option>
-            <option value="modulo3">Módulo 3</option>
-            <option value="modulo4">Módulo 4</option>
-            <option value="modulo5">Módulo 5</option>
-            <option value="modulo6">Módulo 6</option>
-        </select>
-
-        <br><br><label for="senha">Senha</label> <br>
-        <input type="password" id=senha placeholder="Cadastre uma senha" name="senha" required /><br><br>
-
-
-        <label for="confirmarSenha">Confirme sua Senha</label><br>
-        <input type="password" id=confirmarSenha placeholder="Confirme sua senha" name="confirmarSenha" required /><br><br>
-
-        <p>Deseja receber e-mails de aviso?</p>
-        <label for="sim">Sim</label>
-        <input type="radio" name="opcao" id="sim" value="Sim" required>
-        <label for="nao">Não</label>
-        <input type="radio" name="opcao" id="nao" value="Nao" required>
-
-        <br><button type="submit">Cadastrar-se</button>
-    </form>
-
+    <header class="header">
+        <a class="logo" href="/">Logo</a>
+        <nav class="nav">
+            <button class="btn-mobile">
+            </button>
+            <ul class="menu">
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script src="./script.js"></script>
 </body>
 
 </html>

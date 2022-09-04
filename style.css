@@ -103,7 +103,7 @@ a {
 
   .btn-mobile:active,
   .btn-mobile:focus {
-    border: none;
+    outline: none;
   }
 
   .btn-mobile::after,

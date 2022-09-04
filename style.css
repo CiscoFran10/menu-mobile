@@ -103,7 +103,7 @@ a {
 
   .btn-mobile:active,
   .btn-mobile:focus {
-    outline: none;
+    outline-color: transparent;
   }
 
   .btn-mobile::after,
